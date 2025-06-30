@@ -1,7 +1,8 @@
 # Circular Pong
 A two player game built in Unity, where the goal is to hit the ball outside of the circle.
 
-![Képernyőkép 2025-06-30 210403](https://github.com/user-attachments/assets/2edb8a65-6e4d-472c-897b-a496aa68f1e6)
+![Névtelen videó ](https://github.com/user-attachments/assets/8428cf73-4ee1-41dc-a712-6c07b3bdedd8)
+
 
 ---
 
