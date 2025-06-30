@@ -1,0 +1,205 @@
+{
+    "name": "PongControls",
+    "maps": [
+        {
+            "name": "Player 1",
+            "id": "dfe5576e-fcec-4fdf-ade2-386372920f68",
+            "actions": [
+                {
+                    "name": "PushLeft",
+                    "type": "Button",
+                    "id": "a11032b9-7dc5-4f56-87e4-f84281f05e18",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushRight",
+                    "type": "Button",
+                    "id": "cd118443-9be8-43a9-8684-9cd4f43ebe14",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushUp",
+                    "type": "Button",
+                    "id": "0562d16d-3ac8-4d35-813a-79409f4fb12a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushDown",
+                    "type": "Button",
+                    "id": "9d11ffcd-f9d6-452b-ba6b-c18fc526ea8f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9b43fec0-f382-46ab-9924-8548befc80ac",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme1",
+                    "action": "PushLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c010880-44d3-4d36-890a-660929426e79",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme1",
+                    "action": "PushRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10e5bad7-9458-4cb6-ba92-2aa38516377b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme1",
+                    "action": "PushUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c007b3e-3b22-46f7-88af-dbc694d3ade2",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme1",
+                    "action": "PushDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player 2",
+            "id": "551cbe8e-59d1-46d1-8351-90b0ab7b9134",
+            "actions": [
+                {
+                    "name": "PushLeft",
+                    "type": "Button",
+                    "id": "bf289f35-c6ef-4442-8e68-6ba25053cf50",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushRight",
+                    "type": "Button",
+                    "id": "a6693f07-311a-4677-abb7-a80c4ccf1371",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushUp",
+                    "type": "Button",
+                    "id": "06b925ef-bc9f-490a-8281-ff603360952b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushDown",
+                    "type": "Button",
+                    "id": "c3e7ed20-2458-490f-bab9-c31f00dbab26",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "532b4231-8325-402a-9dd5-20fe6903293f",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme2",
+                    "action": "PushLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1bb51192-6bdf-4850-a1a1-e286d2af0d77",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme2",
+                    "action": "PushRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdbabf46-8c06-4488-95a8-531ad0ccfe63",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme2",
+                    "action": "PushUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "96c1f2a2-27dd-410f-9587-b73a562a78ee",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardScheme2",
+                    "action": "PushDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardScheme1",
+            "bindingGroup": "KeyboardScheme1",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "KeyboardScheme2",
+            "bindingGroup": "KeyboardScheme2",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
